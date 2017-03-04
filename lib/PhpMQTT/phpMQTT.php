@@ -1,7 +1,9 @@
 <?php
 
+namespace PhpMQTT;
+
 /*
- 	phpMQTT
+ 	PhpMQTT
 	A simple php class to connect/publish/subscribe to an MQTT broker
  
 */
@@ -32,8 +34,8 @@
 	
 */
 
-/* phpMQTT */
-class phpMQTT {
+/* PhpMQTT */
+class PhpMQTT {
 
 	private $socket; 			/* holds the socket	*/
 	private $msgid = 1;			/* counter for message id */
